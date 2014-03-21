@@ -24,16 +24,30 @@
 	<Item Name="ILCSim1.ctl" Type="Class Private Data" URL="ILCSim1.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Accessors" Type="Folder">
+		<Item Name="Protected" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+			<Item Name="Write ILCADC.vi" Type="VI" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/Write ILCADC.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,9!!!!$!!%!!!!*E"Q!"Y!!"%035R$5WFN-3ZM&gt;G.M98.T!!N*4%.4;7UR)'^V&gt;!"]!0(/V0V(!!!!!Q^*4%.$&lt;WVN&lt;WYO&lt;(:M;7)735R$1W^O:GFH&gt;8*B&gt;'FP&lt;CZM&gt;GRJ9B&amp;*&lt;H"V&gt;%.I97ZO:7RT,G.U&lt;!!\1"9!!QF$;'&amp;O&lt;G6M)$!+-S"$;'&amp;O&lt;G6M=QIV)%.I97ZO:7RT!!Z*&lt;H"V&gt;#"$;'&amp;O&lt;G6M=Q!!J!$RTN4^:A!!!!-035R$1W^N&lt;7^O,GRW&lt;'FC&amp;EF-1U.P&lt;G:J:X6S982J&lt;WYO&lt;(:M;7)D5W.B&lt;F*B&gt;'6@3(J@486M&gt;'FD;'&amp;O&lt;G6M4X"U;7^O=SZD&gt;'Q!55!7!!U#.4!#.D!$-4!Q!T%S-!-S-$!$-D1Q!T-Q-!-U-$!$.$AQ!T9Q-!1R-D!Q"$)U-$!%.$AQ-!!!$V.D97YA5G&amp;U:3!I3(IJ)!!&lt;1!5!&amp;&amp;"(13"(97FO)%.P:7:G;7.J:7ZU!!!P1"I!"!!#``U!!Q!#!!1!!1!&amp;``]!&amp;F*F:G6S:7ZD:3"7&lt;WRU97&gt;F)&amp;:S:79!!#.!"Q!&gt;4G^N;7ZB&lt;#"*&lt;H"V&gt;#"397ZH:3"J&lt;C"$&lt;X6O&gt;(-!&amp;U!&amp;!"&amp;1=G6B&lt;8"M;7:J:8)A2W&amp;J&lt;A!B1!9!'E.P&lt;H:F=H.J&lt;WYA5W6U&gt;'RJ&lt;G=A1XFD&lt;'6T!!";!0(0.6&lt;#!!!!!Q^*4%.$&lt;WVN&lt;WYO&lt;(:M;7)735R$1W^O:GFH&gt;8*B&gt;'FP&lt;CZM&gt;GRJ9AJ*4%."2%-O9X2M!#"!5!!(!!)!!Q!%!!5!"A!(!!A(35R$)%&amp;%1Q!G1(!!(A!!%1^*4%.4;7UR,GRW9WRB=X-!#EF-1V.J&lt;4%A;7Y!!'%!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!#1!+!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
+			</Item>
+		</Item>
+	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="configure.vi" Type="VI" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/configure.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%*!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$UF-1V.J&lt;4%O&lt;(:D&lt;'&amp;T=Q!,35R$5WFN-3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!G1(!!(A!!%1^*4%.4;7UR,GRW9WRB=X-!#EF-1V.J&lt;4%A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%*!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$UF-1V.J&lt;4%O&lt;(:D&lt;'&amp;T=Q!,35R$5WFN-3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!G1(!!(A!!%1^*4%.4;7UR,GRW9WRB=X-!#EF-1V.J&lt;4%A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 		<Item Name="generateDataRequestMessage.vi" Type="VI" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/generateDataRequestMessage.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%*!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$UF-1V.J&lt;4%O&lt;(:D&lt;'&amp;T=Q!,35R$5WFN-3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!G1(!!(A!!%1^*4%.4;7UR,GRW9WRB=X-!#EF-1V.J&lt;4%A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
